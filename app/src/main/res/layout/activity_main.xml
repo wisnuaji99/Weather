@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:textSize="24dp"
+        android:textSize="32dp"
         android:textStyle="bold"
         android:text="Location"/>
 
@@ -123,7 +123,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Humidity : "
+                android:text="Humidity  "
                 android:textSize="24dp"
                 android:textStyle="bold"/>
             <TextView
@@ -147,7 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Cloud : "
+                android:text="Cloud  "
                 android:textSize="24dp"
                 android:textStyle="bold"/>
             <TextView
@@ -251,7 +251,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Perkiraan Cuaca                       3 Hari Kedepan"
+            android:text="Perkiraan Cuaca Dalam                      3 Hari"
             android:textStyle="bold"
             android:textSize="32dp"
             android:gravity="center"/>

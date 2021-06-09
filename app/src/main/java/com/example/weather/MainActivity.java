@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapter.O
                 .enqueue(new Callback<WeatherModel>() {
                     @Override
                     public void onResponse(Call<WeatherModel> call, Response<WeatherModel> response) {
-                        tv_location.setText("Location : "+response.body().getLocation().getName());
+                        tv_location.setText(response.body().getLocation().getName());
                         tv_wind.setText(Double.toString(response.body().getCurrent().getWind_kph())+" KM/H");
                         tv_pressure.setText(Double.toString(response.body().getCurrent().getPressure_mb())+" Milibar");
                         tv_precip.setText(Double.toString(response.body().getCurrent().getPrecip_mm())+" Milimeter");
