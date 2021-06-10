@@ -251,8 +251,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Perkiraan Cuaca Dalam                      3 Hari"
+            android:text="3 Days Forecast"
             android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
             android:textSize="32dp"
             android:gravity="center"/>
 
