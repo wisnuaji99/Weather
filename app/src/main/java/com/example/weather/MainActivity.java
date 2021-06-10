@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapter.O
 
                     @Override
                     public void onFailure(Call<WeatherModel> call, Throwable t) {
+                        Log.d(TAG, "onFailure: Data Gagal Diambil");
 
                     }
                 });
