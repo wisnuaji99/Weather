@@ -1,2 +1,11 @@
 # Weather
  
+WISNU AJI PAMUNGKAS
+
+1313617027
+
+ilmu komputer 2017
+
+ASSGNMENT 2 WEATHER DENGAN MENGGUNAKAN REST API DI ANDROID
+
+LINK VIDEO DEMO APLIKASI https://drive.google.com/file/d/1j5EUWEJgyzAQD81mh82FOojWzoamPyvt/view?usp=sharing
